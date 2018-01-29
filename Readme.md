@@ -49,7 +49,9 @@ webpack-dev-server --content-base src --inline --hot
 
 3. 销毁&清理期
 ```javascript
+
       componentWillUnmount
+      
 ```
 ## 说明
 ```javascript
