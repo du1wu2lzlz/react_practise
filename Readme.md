@@ -15,9 +15,13 @@ webpack-dev-server --content-base src --inline --hot
 ## JSX内置表达式
 当遇到<，JSX就当HTML解析，遇到{就当JavaScript解析。
 1. 三元表达式  
+```javascript
    {window.username == '?' '' : '' }
+```
 2. 属性动态绑定
+```html
    <input type="button" value ="" disabled = {test}/>
+```
 3. 注释
    {/*注释*/}
 
