@@ -45,15 +45,17 @@ webpack-dev-server --content-base src --inline --hot
       + componentWillUpdate
       + render
       + componentDidUpdate
-  ```
+  ```  
+ 
+3.  销毁&清理期  
 
-3. 销毁&清理期
 ```javascript
 
       componentWillUnmount
       
 ```
 ## 说明
+
 ```javascript
 生命周期共提供了10个不同的API。
 
