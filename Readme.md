@@ -16,7 +16,7 @@ webpack-dev-server --content-base src --inline --hot
 当遇到<，JSX就当HTML解析，遇到{就当JavaScript解析。
 1. 三元表达式  
 ```javascript
-   {window.username == '?' '' : '' }
+   {window.username == '' ? '' : '' }
 ```
 2. 属性动态绑定
 ```html
