@@ -1,7 +1,7 @@
 ## npm init
 ## npm install --save react react-dom babelify babel-preset-react
 ## npm install --save babel-preset -es2015
-
+https://www.imooc.com/article/17442
 ##webpack 热加载配置
 webpack --watch  
 webpack-dev-server --content-base src --inline --hot
