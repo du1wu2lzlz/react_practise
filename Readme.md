@@ -117,7 +117,8 @@ webpack-dev-server --content-base src --inline --hot
 a. 
   1. props对于模块来说属于 外来 属性
   2. 传递参数       <Body username="test">
-  3. 模块中接受参数  this.props.username
+  3. 模块中接受参数  this.props.username    
+   
 b. 属性验证
 
 ## Refs 属性
