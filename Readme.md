@@ -105,3 +105,24 @@ webpack-dev-server --content-base src --inline --hot
     10.componentWillUnmount //组件卸载前调用
         组件被移除之前被调用，可以用于做一些清理工作，在componentDidMount方法中添加的所有任务都需要在该方法中撤销，比如创建的定时器或添加的事件监听器。
 ```
+## State 属性
+
+1. 初始化: this.state = { username : 'du1wu2'};
+2. 初始化可以放在构造函数constructors里
+3. 修改state : thisetState({username: 'test'});
+4. state的作用域只属于当前的类,不污染其他模块
+5. state对于模块来说 属于 自身 属性
+
+## Props 属性
+a. 
+  1. props对于模块来说属于 外来 属性
+  2. 传递参数       <Body username="test">
+  3. 模块中接受参数  this.props.username
+b. 属性验证
+
+## Refs 属性
+1. 用于获取原生的html节点    
+2. Refs是访问到组件内部DOM节点唯一可靠的方法
+3. Refs会自动销毁对子组件的引用
+4. 不要在 render 或者 render之前调用Refs
+5. 不要滥用Refs 会造成性能等问题
